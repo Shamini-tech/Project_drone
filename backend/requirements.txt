@@ -1,0 +1,7 @@
+fastapi==0.111.0
+uvicorn==0.26.0
+paho-mqtt==1.6.1
+numpy==1.25.2
+torch==2.1.0
+opencv-python-headless==4.8.1.78
+websockets==11.0.3

@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+node_modules/
+frontend/
+*.mp4
+*.avi
+*.mov
+.DS_Store
+.env

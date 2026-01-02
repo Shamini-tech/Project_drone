@@ -1,0 +1,84 @@
+.mission-container {
+  background: #0d1117;
+  min-height: 100vh;
+  padding: 40px;
+  color: white;
+}
+
+/* Back Button */
+.back-btn {
+  background: transparent;
+  border: none;
+  color: #9ca3af;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: 0.2s;
+}
+
+.back-btn:hover {
+  color: #ffffff;
+}
+
+/* Page Header */
+.mission-header h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.mission-header p {
+  margin-top: 5px;
+  color: #9ca3af;
+}
+
+/* Mission Cards */
+.mission-panel {
+  margin-top: 40px;
+  display: flex;
+  gap: 25px;
+}
+
+.mission-card {
+  background: #1f2937;
+  padding: 25px;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+}
+
+.mission-card h3 {
+  margin-bottom: 12px;
+  color: #9ca3af;
+}
+
+/* Buttons */
+.btn {
+  padding: 12px 18px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  transition: 0.2s;
+  font-weight: 500;
+}
+
+.primary {
+  background: #2563eb;
+}
+
+.secondary {
+  background: #22c55e;
+}
+
+.danger {
+  background: #ef4444;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}

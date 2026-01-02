@@ -1,0 +1,119 @@
+/* Container */
+.history-container {
+  background: #0d1117;
+  min-height: 100vh;
+  padding: 30px;
+  color: #ffffff;
+}
+
+/* Back Button */
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  color: #58a6ff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.back-btn:hover {
+  color: #1f6feb;
+}
+
+/* Header */
+.history-header h1 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+.history-header p {
+  color: #8b949e;
+  margin-bottom: 25px;
+}
+
+/* Filter Section */
+.filter-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.filter-section label {
+  font-size: 16px;
+}
+
+.filter-section input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #30363d;
+  background: #161b22;
+  color: white;
+}
+
+.download-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #238636;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+.download-btn:hover {
+  background: #2ea043;
+}
+
+/* Table */
+.history-table-container {
+  background: #161b22;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #30363d;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.history-table th,
+.history-table td {
+  padding: 14px;
+  border-bottom: 1px solid #30363d;
+  text-align: left;
+}
+
+.history-table th {
+  background: #161b22;
+  font-size: 15px;
+  color: #8b949e;
+}
+
+.history-table tr:hover {
+  background: #1c2128;
+}
+
+/* Status Colors */
+.status.completed {
+  color: #2ea043;
+}
+.status.pending {
+  color: #fbbf24;
+}
+.status.inprogress {
+  color: #58a6ff;
+}
+.status.rejected {
+  color: #ef4444;
+}
+
+/* No Data */
+.no-data {
+  text-align: center;
+  color: #8b949e;
+  padding: 20px;
+}

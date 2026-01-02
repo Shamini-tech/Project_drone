@@ -1,0 +1,71 @@
+.alerts-container {
+  padding: 30px;
+  background: #0d1117;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+/* Back Button */
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #1f2937;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+  transition: 0.2s;
+  margin-bottom: 25px;
+}
+
+.back-btn:hover {
+  background: #2563eb;
+}
+
+.alerts-title {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #9ca3af;
+  margin-bottom: 25px;
+}
+
+/* Table Styling */
+.alerts-table table {
+  width: 100%;
+  background: #1f2937;
+  border-radius: 12px;
+  padding: 20px;
+  border-spacing: 0;
+}
+
+.alerts-table th, td {
+  padding: 14px;
+  border-bottom: 1px solid #2d3645;
+  text-align: left;
+}
+
+.alerts-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Severity Colors */
+.high {
+  color: #ef4444;
+  font-weight: bold;
+}
+
+.medium {
+  color: #eab308;
+  font-weight: bold;
+}
+
+.low {
+  color: #22c55e;
+  font-weight: bold;
+}

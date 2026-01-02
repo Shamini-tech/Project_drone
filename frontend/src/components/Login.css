@@ -1,0 +1,67 @@
+/* Fullscreen Background */
+.login-container {
+  height: 100vh;
+  background: #0d1117;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Login Box */
+.login-box {
+  background: #161b22;
+  padding: 35px;
+  width: 380px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.login-box input,
+.login-box select {
+  padding: 12px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #21262d;
+  color: white;
+  font-size: 15px;
+}
+
+/* Button */
+.login-btn {
+  margin-top: 18px;
+  background: #2563eb;
+  border: none;
+  color: white;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.login-btn:hover {
+  background: #1d4ed8;
+}
+
+/* Signup link */
+.signup-text {
+  margin-top: 15px;
+  text-align: center;
+  color: #9ca3af;
+}
+
+.signup-text span {
+  color: #2563eb;
+  cursor: pointer;
+  font-weight: bold;
+}
